@@ -65,8 +65,7 @@ namespace BT.NetCoreClient
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseStaticFiles();
-            app.UseHttpsRedirection();
+            app.UseStaticFiles(); 
             app.UseMvc();
             app.UseSwagger();
             app.UseSwaggerUI(c =>
